@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+/* USER CODE BEGIN Includes */
+#include "main_tasks.h"
+/* USER CODE END Includes */
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -104,8 +107,10 @@ int main(void)
   MX_RTC_Init();
   MX_TIM1_Init();
   MX_TIM4_Init();
-  /* USER CODE BEGIN 2 */
 
+  /* USER CODE BEGIN 2 */
+  //Everything after this is schedule driven whereas before it was sequential C
+  tasks_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
