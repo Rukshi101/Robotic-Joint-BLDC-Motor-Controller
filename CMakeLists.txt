@@ -4,6 +4,26 @@ cmake_minimum_required(VERSION 3.20)
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/arm-none-eabi.cmake)
 include(cmake/stm32g4.cmake)
 
+# FreeRTOS kernel source files
+set(FREERTOS_SOURCES
+    FreeRTOS/Source/tasks.c
+    FreeRTOS/Source/queue.c
+    FreeRTOS/Source/list.c
+    FreeRTOS/Source/timers.c
+    FreeRTOS/Source/event_groups.c
+    FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+    FreeRTOS/Source/portable/MemMang/heap_4.c
+)
+
+# FreeRTOS header locations
+include_directories(
+    FreeRTOS/Source/include
+    FreeRTOS/Source/portable/GCC/ARM_CM4F
+)
+
+
+
+
 project(bldc-motor-controller C ASM)
 set(CMAKE_C_STANDARD 11)
 
@@ -42,6 +62,7 @@ add_executable(${PROJECT_NAME}.elf
     ${CORE_SOURCES}
     ${HAL_SOURCES}
     ${APP_SOURCES}
+    ${FREERTOS_SOURCES}
 )
 
 # Apply linker script
