@@ -3,6 +3,8 @@
 #include "task.h"
 #include "semphr.h"
 #include "stm32g4xx_hal.h"
+#include "timers.h"
+#include "adc_monitor.h"
 
 /* Binary semaphore - given by Hall ISR, taken by this task */
 SemaphoreHandle_t hall_semaphore;

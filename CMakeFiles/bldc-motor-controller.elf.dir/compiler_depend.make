@@ -292,6 +292,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj: App/Src
   C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/arm-none-eabi/include/sys/features.h \
   C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
   C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+  App/Inc/can_telemetry.h \
   App/Inc/velocity_control.h \
   Core/Inc/FreeRTOSConfig.h \
   Core/Inc/stm32g4xx_hal_conf.h \
