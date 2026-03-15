@@ -18,13 +18,3 @@ add_executable(test_velocity
     ${APP_SOURCES}
     ${UNITY_SOURCES}
 )
-
-target_link_options(test_velocity PRIVATE -Wl,-subsystem,console)
-
-# Define missing extern variables for test build
-target_compile_definitions(test_velocity PRIVATE
-    -DTEST_BUILD
-)
-
-# Link as console app on Windows
-target_link_options(test_velocity PRIVATE -mconsole)
