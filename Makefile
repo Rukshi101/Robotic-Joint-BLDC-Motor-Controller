@@ -153,6 +153,30 @@ App/Src/adc_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.s
 .PHONY : App/Src/adc_monitor.c.s
 
+App/Src/can_telemetry.obj: App/Src/can_telemetry.c.obj
+.PHONY : App/Src/can_telemetry.obj
+
+# target to build an object file
+App/Src/can_telemetry.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj
+.PHONY : App/Src/can_telemetry.c.obj
+
+App/Src/can_telemetry.i: App/Src/can_telemetry.c.i
+.PHONY : App/Src/can_telemetry.i
+
+# target to preprocess a source file
+App/Src/can_telemetry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.i
+.PHONY : App/Src/can_telemetry.c.i
+
+App/Src/can_telemetry.s: App/Src/can_telemetry.c.s
+.PHONY : App/Src/can_telemetry.s
+
+# target to generate assembly for a file
+App/Src/can_telemetry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.s
+.PHONY : App/Src/can_telemetry.c.s
+
 App/Src/commutation.obj: App/Src/commutation.c.obj
 .PHONY : App/Src/commutation.obj
 
@@ -1037,6 +1061,9 @@ help:
 	@echo "... App/Src/adc_monitor.obj"
 	@echo "... App/Src/adc_monitor.i"
 	@echo "... App/Src/adc_monitor.s"
+	@echo "... App/Src/can_telemetry.obj"
+	@echo "... App/Src/can_telemetry.i"
+	@echo "... App/Src/can_telemetry.s"
 	@echo "... App/Src/commutation.obj"
 	@echo "... App/Src/commutation.i"
 	@echo "... App/Src/commutation.s"

@@ -3,6 +3,9 @@
 #include "commutation.h"
 #include "velocity_control.h"
 #include "adc_monitor.h"
+#include "fault_manager.h"
+#include "can_telemetry.h"
+
 
 /* Counters incremented by each task - visible in debugger */
 volatile uint32_t task1_count = 0;
@@ -29,6 +32,8 @@ void tasks_init(void) {
     xTaskCreate(commutation_task,      "Commutation", 256, NULL, 4, NULL);
     xTaskCreate(velocity_control_task, "Velocity",    256, NULL, 3, NULL);
     xTaskCreate(adc_monitor_task, "ADCMonitor", 256, NULL, 2, NULL);
+    xTaskCreate(fault_manager_task, "FaultMgr", 256, NULL, 2, NULL);
+    xTaskCreate(can_telemetry_task, "CAN", 512, NULL, 1, NULL);
     xTaskCreate(task1_handler,         "Task1",       128, NULL, 2, NULL);
     xTaskCreate(task2_handler,         "Task2",       128, NULL, 1, NULL);
     vTaskStartScheduler();

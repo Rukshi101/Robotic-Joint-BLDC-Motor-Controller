@@ -33,6 +33,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/adc_monitor.c" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj" "gcc" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj.d"
+  "C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/can_telemetry.c" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj" "gcc" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj.d"
   "C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/commutation.c" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj" "gcc" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj.d"
   "C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/fault_manager.c" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj" "gcc" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj.d"
   "C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/main_tasks.c" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj" "gcc" "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj.d"

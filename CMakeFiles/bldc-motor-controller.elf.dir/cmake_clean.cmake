@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj"
   "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj.d"
+  "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj"
+  "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj.d"
   "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj"
   "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj.d"
   "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj"

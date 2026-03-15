@@ -449,10 +449,24 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.s"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/adc_monitor.c -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.s
 
+CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
+CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj: App/Src/can_telemetry.c
+CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj"
+	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/can_telemetry.c
+
+CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.i"
+	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/can_telemetry.c > CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.i
+
+CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.s"
+	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/can_telemetry.c -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.s
+
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj: App/Src/commutation.c
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/commutation.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.i: cmake_force
@@ -466,7 +480,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj: App/Src/fault_manager.c
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/fault_manager.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.i: cmake_force
@@ -480,7 +494,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj: App/Src/main_tasks.c
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/main_tasks.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.i: cmake_force
@@ -494,7 +508,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj: App/Src/velocity_control.c
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/App/Src/velocity_control.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.i: cmake_force
@@ -508,7 +522,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/App/Src/velocity_control.c.s: cmake_for
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj: FreeRTOS/Source/tasks.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/tasks.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -522,7 +536,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/tasks.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj: FreeRTOS/Source/queue.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/queue.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.i: cmake_force
@@ -536,7 +550,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/queue.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj: FreeRTOS/Source/list.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/list.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.i: cmake_force
@@ -550,7 +564,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/list.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj: FreeRTOS/Source/timers.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/timers.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.i: cmake_force
@@ -564,7 +578,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/timers.c.s: cmake_force
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj: FreeRTOS/Source/event_groups.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -578,7 +592,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/event_groups.c.s: cmake
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -592,7 +606,7 @@ CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/p
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/flags.make
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/bldc-motor-controller.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c C:/Users/Ruk12/Documents/bldc-motor-controller/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -632,6 +646,7 @@ bldc__motor__controller_elf_OBJECTS = \
 "CMakeFiles/bldc-motor-controller.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/bldc-motor-controller.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj" \
 "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj" \
+"CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj" \
 "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj" \
 "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj" \
 "CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj" \
@@ -674,6 +689,7 @@ bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/Drivers/STM3
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/App/Src/adc_monitor.c.obj
+bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/App/Src/can_telemetry.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/App/Src/commutation.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/App/Src/fault_manager.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/App/Src/main_tasks.c.obj
@@ -686,7 +702,7 @@ bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Sou
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable bldc-motor-controller.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable bldc-motor-controller.elf"
 	C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/arm-none-eabi-gcc.exe -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fdata-sections -ffunction-sections -Wall -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,--gc-sections -Wl,--print-memory-usage -specs=nano.specs -specs=nosys.specs -TC:/Users/Ruk12/Documents/bldc-motor-controller/Core/Startup/STM32G431CBUX_FLASH.ld $(bldc__motor__controller_elf_OBJECTS) $(bldc__motor__controller_elf_EXTERNAL_OBJECTS) -o bldc-motor-controller.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Generating .bin file"
 	arm-none-eabi-objcopy -O binary bldc-motor-controller.elf bldc-motor-controller.bin

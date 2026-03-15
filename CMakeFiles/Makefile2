@@ -85,12 +85,12 @@ clean: CMakeFiles/bldc-motor-controller.elf.dir/clean
 CMakeFiles/bldc-motor-controller.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target bldc-motor-controller.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target bldc-motor-controller.elf"
 .PHONY : CMakeFiles/bldc-motor-controller.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bldc-motor-controller.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bldc-motor-controller.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles 0
 .PHONY : CMakeFiles/bldc-motor-controller.elf.dir/rule
@@ -102,7 +102,7 @@ bldc-motor-controller.elf: CMakeFiles/bldc-motor-controller.elf.dir/rule
 # codegen rule for target.
 CMakeFiles/bldc-motor-controller.elf.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bldc-motor-controller.elf.dir/build.make CMakeFiles/bldc-motor-controller.elf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Finished codegen for target bldc-motor-controller.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Finished codegen for target bldc-motor-controller.elf"
 .PHONY : CMakeFiles/bldc-motor-controller.elf.dir/codegen
 
 # clean rule for target.
