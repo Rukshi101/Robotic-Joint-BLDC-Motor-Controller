@@ -1,0 +1,3 @@
+C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles/bldc-motor-controller.elf.dir
+C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles/edit_cache.dir
+C:/Users/Ruk12/Documents/bldc-motor-controller/CMakeFiles/rebuild_cache.dir
