@@ -9,6 +9,9 @@
 /* Binary semaphore - given by Hall ISR, taken by this task */
 SemaphoreHandle_t hall_semaphore;
 
+static TimerHandle_t stall_watchdog;
+#define STALL_TIMEOUT_MS    500
+
 /* TIM1 handle defined in main.c by CubeMX */
 extern TIM_HandleTypeDef htim1;
 
@@ -80,14 +83,29 @@ static void commutate(uint8_t hall_state) {
     else if (step[2] == 2) set_phase_low(TIM_CHANNEL_3);
     else                   set_phase_off(TIM_CHANNEL_3);
 }
+/* Called by FreeRTOS software timer if no Hall edge within timeout */
+static void stall_watchdog_callback(TimerHandle_t timer) {
+    xEventGroupSetBits(fault_event_group, FAULT_BIT_STALL);
+}
 
 /* Commutation task - highest priority, blocks on Hall semaphore */
 void commutation_task(void *args) {
     hall_semaphore = xSemaphoreCreateBinary();
 
+    /* One-shot watchdog - fires if no Hall edge within 500ms */
+    stall_watchdog = xTimerCreate("StallWD",
+        pdMS_TO_TICKS(STALL_TIMEOUT_MS),
+        pdFALSE,
+        NULL,
+        stall_watchdog_callback);
+    xTimerStart(stall_watchdog, 0);
+
     while (1) {
         /* Block here until Hall ISR gives the semaphore */
         xSemaphoreTake(hall_semaphore, portMAX_DELAY);
+
+        /* Reset stall watchdog - motor is still spinning */
+        xTimerReset(stall_watchdog, 0);
 
         /* Read Hall state and commutate immediately */
         uint8_t state = read_hall_state();

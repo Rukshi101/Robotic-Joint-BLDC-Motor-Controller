@@ -12,4 +12,6 @@ void velocity_set_target(float rpm);
 /* Get current measured RPM - called from CAN task for telemetry */
 float velocity_get_actual(void);
 
+float compute_rpm(uint32_t delta_ticks);
+float compute_duty_correction(float target, float actual, float kp);
 #endif

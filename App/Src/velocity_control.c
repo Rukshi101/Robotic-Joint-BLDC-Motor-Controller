@@ -43,6 +43,20 @@ static void set_duty_cycle(float duty) {
     __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, pulse);
     __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_3, pulse);
 }
+/* Compute RPM from timer tick delta - pure math, testable */
+float compute_rpm(uint32_t delta_ticks) {
+    if (delta_ticks == 0) return 0.0f;
+    return ((float)TIMER_CLOCK_HZ / (float)delta_ticks)
+           / (float)HALL_EDGES_PER_REV * 60.0f;
+}
+
+/* Compute duty cycle correction - pure math, testable */
+float compute_duty_correction(float target, float actual, float kp) {
+    if (target == 0.0f) return 0.0f;
+    float error = target - actual;
+    return kp * error / target;
+}
+
 
 /* Velocity control task - wakes on Hall semaphore, same as commutation */
 void velocity_control_task(void *args) {
