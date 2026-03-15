@@ -1,0 +1,30 @@
+name: Unit Tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo and submodules
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive
+
+    - name: Install dependencies
+      run: sudo apt-get install -y gcc cmake make
+
+    - name: Build tests
+      run: |
+        mkdir build-tests
+        cd build-tests
+        cmake ../tests -G "Unix Makefiles"
+        make
+
+    - name: Run tests
+      run: ./build-tests/test_velocity
