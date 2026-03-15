@@ -3,6 +3,9 @@
 #include "task.h"
 #include "semphr.h"
 #include "stm32g4xx_hal.h"
+#include "queue.h"
+#include "can_telemetry.h"
+
 
 /* TIM1 handle for PWM duty cycle updates */
 extern TIM_HandleTypeDef htim1;
@@ -67,6 +70,12 @@ void velocity_control_task(void *args) {
         /* RPM = (timer_clock / delta) / edges_per_rev * 60 */
         actual_rpm = ((float)TIMER_CLOCK_HZ / (float)delta)
                      / (float)HALL_EDGES_PER_REV * 60.0f;
+
+        /* Check for new setpoint from CAN task */
+        float new_setpoint;
+        if (xQueueReceive(setpoint_queue, &new_setpoint, 0) == pdTRUE) {
+            target_rpm = new_setpoint;
+        }
 
         /* Proportional controller - error drives duty cycle */
         error = target_rpm - actual_rpm;
