@@ -65,10 +65,6 @@ add_executable(${PROJECT_NAME}.elf
     ${FREERTOS_SOURCES}
 )
 
-# Apply linker script
-target_link_options(${PROJECT_NAME}.elf PRIVATE
-    -T${LINKER_SCRIPT}
-)
 
 # Generate .bin file from .elf after build
 add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
