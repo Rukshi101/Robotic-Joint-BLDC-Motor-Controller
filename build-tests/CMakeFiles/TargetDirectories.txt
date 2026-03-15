@@ -1,3 +1,0 @@
-C:/Users/Ruk12/Documents/bldc-motor-controller/build-tests/CMakeFiles/test_velocity.dir
-C:/Users/Ruk12/Documents/bldc-motor-controller/build-tests/CMakeFiles/edit_cache.dir
-C:/Users/Ruk12/Documents/bldc-motor-controller/build-tests/CMakeFiles/rebuild_cache.dir

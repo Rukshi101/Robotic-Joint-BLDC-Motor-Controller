@@ -5,4 +5,5 @@ build/
 *.map
 *.o
 *.d
+build-tests/
 .vscode/settings.json
